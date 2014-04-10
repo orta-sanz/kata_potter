@@ -4,7 +4,6 @@ function devuelveCantidad() {
 	return carro.cantidad;
 }
 
-
 function devuelveTotal() {
 	return carro.total_euros;
 }
