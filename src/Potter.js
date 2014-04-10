@@ -9,10 +9,6 @@ function devuelveCantidadLibro(index) {
 	return carro.productos[index];
 }
 
-function meteLibro(index, cantidad) {
-	carro.productos[index] += cantidad;
-}
-
 function devuelveCantidadTotal() {
 	return carro.totalProductos;
 }
