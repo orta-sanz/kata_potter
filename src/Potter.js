@@ -1,3 +1,9 @@
+var carro = {total: 0};
+
 function devuelveTotal() {
-	return 0;
+	return carro.total;
+}
+
+function devuelveCantidadLibro() {
+
 }
