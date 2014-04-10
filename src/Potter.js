@@ -12,3 +12,7 @@ function devuelveCantidadLibro(index) {
 function meteLibro(index, cantidad) {
 	carro.productos[index] += cantidad;
 }
+
+function devuelveCantidadTotal() {
+	return 0;
+}
