@@ -12,4 +12,8 @@ describe('Carrito', function() {
 
 		expect(devuelveCantidadLibro(1)).toBe(2);
 	});
+
+	it('El total de libros que hay dentro del carro es 0', function() {
+		expect(devuelveCantidadTotal()).toBe(0);
+	});
 });
