@@ -17,8 +17,3 @@ function meteLibro(index, cantidad) {
 	carro.productos[index] += cantidad;
 	carro.totalProductos += cantidad;	
 }
-
-function sacaLibro(index, cantidad) {
-	carro.productos[index] -= cantidad;
-	carro.totalProductos -= cantidad;
-}
