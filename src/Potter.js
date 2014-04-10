@@ -1,12 +1,10 @@
-//var articulos	= {potter_1: 0, potter_2: 0, potter_3: 0, potter_4: 0, potter_5: 0};
 var carro 		= 	{
-					cantidad: 0, 
-					articulos: {'potter_1': 0, 'potter_2': 0, 'potter_3': 0, 'potter_4': 0, 'potter_5': 0}, 
-					total_euros: 0
+					total: 0, 
+					articulos: {'potter_1': 0, 'potter_2': 0, 'potter_3': 0, 'potter_4': 0, 'potter_5': 0}
 					};
 
-function devuelveCantidad() {
-	return carro.cantidad;
+function devuelveTotal() {
+	return carro.total;
 }
 
 function devuelveArticuloCarro(index) {
@@ -27,8 +25,4 @@ function devuelveArticuloCarro(index) {
 				return carro.articulos.potter_5
 				break;
 	}
-}
-
-function devuelveTotal() {
-	return carro.total_euros;
 }
