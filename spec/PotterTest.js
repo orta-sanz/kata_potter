@@ -13,9 +13,9 @@ describe('Consultas al carrito', function() {
 });
 
 describe('Operaciones con el carrito', function() {
-	it('Metemos un libro de Potter #2 en el carrito', function() {
-		meteLibro(2);
-		expect(devuelveCantidadLibro(2)).toBe(1);
-		expect(devuelveCantidadTotal()).toBe(1);
+	it('Metemos tres libros de Potter #2 en el carrito', function() {
+		meteLibro(2, 3);
+		expect(devuelveCantidadLibro(2)).toBe(3);
+		expect(devuelveCantidadTotal()).toBe(3);
 	});
 });
