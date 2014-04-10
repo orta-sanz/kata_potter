@@ -8,3 +8,7 @@ function devuelveTotal() {
 function devuelveCantidadLibro(index) {
 	return carro.productos[index];
 }
+
+function meteLibro(index, cantidad) {
+	carro.productos[index] += cantidad;
+}
