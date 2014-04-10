@@ -1,5 +1,5 @@
 var libros = [0, 0 ,0 ,0 ,0];
-var carro = {total: 0, productos: libros};
+var carro = {total: 0, productos: libros, totalProductos: 0};
 
 function devuelveTotal() {
 	return carro.total;
@@ -14,5 +14,5 @@ function meteLibro(index, cantidad) {
 }
 
 function devuelveCantidadTotal() {
-	return 0;
+	return carro.totalProductos;
 }
