@@ -18,4 +18,11 @@ describe('Operaciones con el carrito', function() {
 		expect(devuelveCantidadLibro(2)).toBe(3);
 		expect(devuelveCantidadTotal()).toBe(3);
 	});
+
+	it('Sacamos un libro de Potter #5 de los tres que tenemos', function() {
+		meteLibro(5, 3);
+		sacaLibro(5, 1);
+		expect(devuelveCantidadLibro(5)).toBe(2);
+		expect(devuelveCantidadTotal()).toBe(2);
+	});
 });
