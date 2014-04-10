@@ -4,6 +4,6 @@ describe('Carrito', function() {
 	});
 
 	it('La cantidad de libros de Potter #1 en el carro debe ser 0', function() {
-		expect(devuelveCantidadLibro()).toBe(0);
+		expect(devuelveCantidadLibro(1)).toBe(0);
 	});
 });
