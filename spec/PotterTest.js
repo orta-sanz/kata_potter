@@ -8,6 +8,6 @@ describe('Carrito', function() {
 	});
 
 	it('El carrito tiene los articulos iniciados a 0', function() {
-		expect(devuelveArticuloCarro(0)).toBe(0);
+		expect(devuelveArticuloCarro(1)).toBe(0);
 	});
 });
