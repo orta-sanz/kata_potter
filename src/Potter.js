@@ -5,5 +5,5 @@ function devuelveTotal() {
 }
 
 function devuelveCantidadLibro() {
-
+	return 0;
 }
